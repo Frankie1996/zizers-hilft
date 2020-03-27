@@ -15,7 +15,7 @@ const Add = () => {
             <h1 className='ui header'>
               <div className='content'>
               <span className='page-title'>
-                Eintrag hinzufügen.
+                Eintrag hinzufügen
               </span>
                 <div className='sub header'>
                 Füge deine Information oder deine Hilfestellung in die interaktive Karte ein, damit wir unseren Nachbarn und lokalen Geschäften helfen können.
