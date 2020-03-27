@@ -9,7 +9,6 @@ module.exports = {
     description:
       'In Zeiten von Selbstisolation und Social Distancing soll in Zizers niemand alleine sein.',
     email: 'frank.zinsli@gmail.com',
-    teaserImage: "https://www.whozinberg.org/teaser.jpg",
     twitter: {
       hashtag: 'yourHashtag',
       handle: 'yourTwitterHandle'
