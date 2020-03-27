@@ -4,7 +4,7 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    author: 'Marc Fehr',
+    author: 'Frank Zinsli by Marc Fehr',
     title: 'Zizers hilft!',
     description:
       'This is the open source project for building your own community map.',
@@ -15,7 +15,7 @@ module.exports = {
       handle: 'yourTwitterHandle'
     },
     share: {
-      text: 'Wir helfen uns gegenseitig. Hilf auch du mit #abc',
+      text: 'Wir helfen uns gegenseitig. Hilf auch du mit! https://zizers-hilft.netlify.com/',
       hashtags: 'WhosInBerg,Coronavirus,StayTheFuckHome' // separate with commas,
     },
     menuLinks: [
