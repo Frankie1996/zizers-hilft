@@ -133,23 +133,23 @@ export function MapAddComponent() {
         <AnimatedMap getMapObject={m => setMap(m)} enabled={mapActive} />
         {!mapActive && (
           <div id='overlay' className='box'>
-            <h3>Add new information</h3>
+            <h3>Neue Information hinzufügen</h3>
             <p>
-              Choose a position on the map within the community boundaries to become part of Who'zinberg.
+            Wählen Sie eine Position auf der Karte innerhalb der Gemeindegrenzen, um Teil von <strong>Zizers hilft!</strong> zu werden.
             </p>
             <button
               className='ui primary button'
               onClick={() => setMapActive(true)}
             >
-              Activate map and add service
+              Karte aktivieren und Dienstleistung hinzufügen
             </button>
           </div>
         )}
 
         {content.position.length > 0 && (
           <div id='selectThisPoint' className='box'>
-            <h3>You set a position</h3>
-            <p>Do you want to use it?</p>
+            <h3>Sie haben eine Position gewählt</h3>
+            <p>Wollen Sie diese verwenden?</p>
             <div className='ui buttons'>
               <button
                 className='ui button'
@@ -157,13 +157,13 @@ export function MapAddComponent() {
                   setContent({ ...content, position: [] })
                 }}
               >
-                No, choose again...
+                Nein, neue Position wählen...
               </button>
               <button
                 className='ui positive button'
                 onClick={() => setPositionSelected(true)}
               >
-                Yes!
+                Ja!
               </button>
             </div>
           </div>
@@ -185,14 +185,14 @@ export function MapAddComponent() {
             </button>
             <div className='ui form'>
               <h4 className='ui horizontal divider header'>
-                About your service (public)
+                Über deine Dienstleistung (öffentlich)
               </h4>
               <p>
-                Please answer the following questions. This data will be displayed on the map. At the moment, it's only possible to choose <strong>one category</strong> per point. If you have more than one information, you'll have to add every single one to the map.
+              Bitte beanworte die folgenden Fragen. Diese Informationen werden nach einer Kontrolle von uns auf der Karte erscheinen. Aktuell kann nur <strong>eine Kategorie</strong> pro Service ausgewählt werden. Wenn du mehr als eine Hilfestellung anbieten kannst, musst du mehrere Punkte in der Karte setzen.
               </p>
 
               <div className='field'>
-                <label>Service category</label>
+                <label>Kategorie</label>
                 <select
                   value={content.category}
                   className='ui dropdown'
@@ -215,80 +215,80 @@ export function MapAddComponent() {
               </div>
 
               <div className='field required'>
-                <label>Title of your information</label>
+                <label>Titel des Angebots</label>
                 <input
                   type='text'
                   name='title'
                   value={content.title}
                   onChange={onChange}
-                  placeholder='Help with shopping / Have hand sanitiser / what else?'
+                  placeholder='Ich gehe für Sie einkaufen / mit dem Hund spazieren etc...'
                 />
               </div>
 
               <div className='field required'>
-                <label>That's what you offer</label>
+                <label>Das bietest du an</label>
                 <textarea
                   rows={4}
                   name='description'
                   onChange={onChange}
-                  placeholder='Write a short text that describes your service or information.'
+                  placeholder='Schreibe einen kurzen Text, der deinen Service oder deine Information beschreibt'
                   defaultValue={content.description}
                 />
               </div>
 
               <div className='field required'>
-                <label>How to get in touch</label>
+                <label>Wie kann man dich kontaktieren</label>
                 <textarea
                   rows={4}
                   name='contact'
-                  placeholder='This is what people will see. Example: Whatsapp: 012 234 23 23, Email: xyz@abc.co.za'
+                  placeholder='Das ist die Kontaktadresse, welche die Webseitenbesucher sehen werden. Bsp: Whatsapp: 079 123 45 67, E-Mail: max.mustermann@mail.com'
                   defaultValue={content.contact}
                   onChange={onChange}
                 />
               </div>
 
               <div className='field required'>
-                <label>Your physical (postal) address</label>
+                <label>Deine Adresse</label>
                 <textarea
                   rows={4}
                   name='address'
-                  placeholder='123 Main road, Muizenberg. We need this to confirm your locaction on the map.'
+                  placeholder='Bsp: Beispielweg 10, 7205 Zizers. Diese Angaben, benötigen wir um deine Eingabe zu überprüfen.'
                   defaultValue={content.address}
                   onChange={onChange}
                 />
               </div>
 
               <h4 className='ui horizontal divider header'>
-                Additional information
+                Weitere Informationen
               </h4>
               <p>
-                This information will not be published to the website.
+                Diese Informationen sind nicht öffentlich zugänglich.
               </p>
 
               <div className='field required'>
-                <label>Your name</label>
+                <label>Vor- und Nachname</label>
                 <input
                   type='text'
                   name='name'
-                  placeholder='James Smith'
+                  placeholder='Max Mustermann'
                   defaultValue={content.name}
                   onChange={onChange}
                 />
               </div>
 
               <div className='field required'>
-                <label>Your email address</label>
+                <label>Deine E-Mailadresse</label>
                 <input
                   type='text'
                   name='email'
-                  placeholder='james@smith.com'
+                  placeholder='max.mustermann@mail.com'
                   defaultValue={content.email}
                   onChange={onChange}
                 />
               </div>
 
               <div className='field'>
-                <label>Phone number (not mandatory)</label>
+                <label>Telefonnummer (freiwillig)</label>
                 <input
                   type='text'
                   name='phone'
@@ -297,19 +297,20 @@ export function MapAddComponent() {
                   onChange={onChange}
                 />
               </div>
+              <p>Mit dem Abschicken willigst du ein, dass die weiter oben gemachten Angaben auf dieser Webseite öffentlich ersichtlich sind.</p>
 
               {showError && (
                 <div className='ui negative message'>
-                  <div className='header'>Missing data</div>
+                  <div className='header'>Fehlende Eingaben</div>
                   <p>
-                    Please fill in all the required details.
+                    Bitte fülle alle erforderlichen Felder aus.
                   </p>
                 </div>
               )}
 
               <div className='ui buttons'>
                 <button className='ui positive button' onClick={validateForm}>
-                  Send form
+                  Senden
                 </button>
               </div>
             </div>
@@ -320,12 +321,11 @@ export function MapAddComponent() {
         <div className='ui vertical segment'>
           <div className='ui text container'>
             <div className='ui success message'>
-              <div className='header'>Thanks!</div>
+              <div className='header'>Vielen Dank!</div>
               <p>
-                Your data has been successfully transmitted and will soon be visible on{' '}
+                Deine Daten wurden übermittelt und werden nach der Überprüfung auf der Website angezeigt werden.{' '}
                 <Link to='/'>{' '}{data.site.siteMetadata.title}
                 </Link>{' '}
-                as soon as it was approved by the administrators.
               </p>
             </div>
           </div>
@@ -334,30 +334,34 @@ export function MapAddComponent() {
 
       <div className='ui vertical segment'>
         <div className='ui text container formcontainer'>
-          <h2>What's happening to my data?</h2>
-          Who'zinberg administrators will check your entry and add it to the interactive map once they gave their approval. This does usually take <strong>less than 24 hours</strong>.<br />
-          <h2>Which kind of entries will be approved?</h2>
-          Everyone can become part of the Who'zinberg community. Whether you're offering to read books to children via Skype, want to deliver a few slices of your delicious sour dough bread every Wednesday, or simply start a new take-away service for your products – this is your place. There will soon be an option for <strong>location-free services</strong>, too.
-          <h2>How can I remove my data?</h2>
-          If you <strong>want to be deleted</strong> from the Who'zinberg map, drop me an email to{' '}
+          <h2>Was geschieht mit meinen Daten?</h2>
+          Die Administratoren prüfen deinen Eintrag und fügen ihn der interaktiven Karte hinzu. Dies dauert normalerweise <strong>weniger als 24 Stunden</strong>. Keine Angst, deine Daten werden <strong>nicht an Dritte weitergegeben.</strong>
+          <h2>Welche Einträge werden bewilligt?</h2>
+          Jeder kann Teil der Gemeinschaft werden. Ob du Kindern über Skype Bücher vorliest, jeden Mittwoch ein paar Scheiben deines leckeren Sauerteigbrotes lieferst oder einfach einen neuen Take-away-Service für deine Produkte startest - hier bist du richtig.
+          <h2>Wie kann ich meine Daten entfernen?</h2>
+          Wenn du einen Eintrag von der Karte <strong>löschen</strong> möchtest, dann schick eine Nachricht an{' '}
           <a
-            href='mailto:mail@whozinberg.org'
+            href='mailto:frank.zinsli@gmail.com'
           >
-            mail@wwhozinberg.org
+            frank.zinsli@gmail.com
           </a>
-          <h2>Anything we can improve?</h2>
-          This tool is supposed to be used, why we're constantly looking for constructive feedback. If you have anything that you think would make this all better, please let me know via <a
-          href='mailto:mail@whozinberg.org'
+          <h2>Was können wir verbessern?</h2>
+          Wir haben für jedes Anliegen ein offenes Ohr und danken dir bereits jetzt für dein konstruktives Feedback via <a
+          href='mailto:frank.zinsli@gmail.com'
         >
-          email
+          Mail
         </a>{' '}.
-          <h2>Why only Muizenberg?</h2>
-          Because at the moment, we all need to keep our lifes as local and isolated as possible. If you want this service to be available in your area,{' '}
+          <h2>Warum nur in Zizers?</h2>
+          Zur Verhinderung einer weiteren Ausbreitung des Coronavirus, müssen wir unser Leben aktuell so lokal und isoliert wie möglich führen. Das Projekt <stong>Zizers hilft!</stong> soll Menschen in einer vergleisweise kleinen Community zusammenbringen, damit einander im Sinne einer Nachbarschaftshilfe geholfen werden kann. Die Idee dahinter stammt vom Web-Entwickler Marc Fehr, der während sechs Monaten pro Jahr in Südafrika arbeitet. Für seine lokale Community hat er {' '}
           <a
-          href='mailto:mail@whozinberg.org'
+          href='https://www.whozinberg.org'
         >
-            contact us via email
-        </a>{' '}and we'll talk about it. This complete project will soon be available as an <strong>open source repository</strong> on Github.
+            whozinberg.org
+        </a>{' '}ins Leben gerufen, das identisch wie Zizers hilft! funktioniert. Dankbarerweise stellt er seinen Programmiercode auf einer <strong>open source repository</strong> von           <a
+          href='https://gitlab.com/marc.fehr/community-isolation-map'
+        >
+            Gitlab
+        </a> zur Verfügung, damit sich weitere Communities wie Zizers hilft! bilden lassen.
         </div>
       </div>
     </div>

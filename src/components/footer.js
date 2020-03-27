@@ -22,7 +22,20 @@ const Footer = () => {
   return (
     <footer className='ui vertical inverted segment'>
       <div className='ui center aligned container'>
-        <i className='ui icon copyright' />{new Date().getFullYear()}{' '}{data.site.siteMetadata.title}{' ' }|{' '}<a href={`mailto:${data.site.siteMetadata.email}`}><i className='ui icon envelope' />Write us an email</a>{' '}|{' '}<a href={`https://twitter.com/hashtag/${data.site.siteMetadata.twitter.hashtag}`} target={'_blank'} rel={'noopener noreferrer'}><i className='ui icon twitter' />Follow us on Twitter</a>{' '}|{' '}Built with <i className={'ui icon heart'} />by <a href='https://twitter.com/@mrcfhr' target={'_blank'} rel={'noopener noreferrer'}>{data.site.siteMetadata.author}</a>
+        <table>
+          <tbody>
+            <tr>
+              <td className='tbl-titel'>Entwicklung</td>
+              <td className='content'>Frank Zinsli / Marc Fehr</td>
+            </tr>
+            <tr>
+              <td className='tbl-titel'>Veröffentlicht</td>
+              <td className='content'>28.03.2020, 02:25</td>
+            </tr>
+          </tbody>
+        </table>
+        <hr></hr>
+        <i className='ui icon copyright' />{new Date().getFullYear()}{' '}{data.site.siteMetadata.title}
       </div>
     </footer>
   );

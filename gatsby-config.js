@@ -5,28 +5,28 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     author: 'Marc Fehr',
-    title: 'Community Isolation Map',
+    title: 'Zizers hilft!',
     description:
       'This is the open source project for building your own community map.',
-    email: 'mail@xyz.com',
+    email: 'frank.zinsli@gmail.com',
     teaserImage: "https://www.whozinberg.org/teaser.jpg",
     twitter: {
       hashtag: 'yourHashtag',
       handle: 'yourTwitterHandle'
     },
     share: {
-      text: 'This is the share text, follow @xyz and #abc',
+      text: 'Wir helfen uns gegenseitig. Hilf auch du mit #abc',
       hashtags: 'WhosInBerg,Coronavirus,StayTheFuckHome' // separate with commas,
     },
     menuLinks: [
       {title: 'Home', link: '/', icon: 'map'},
       {title: 'Hinzufügen', link: '/add', icon: 'plus'},
-      {title: 'Kontakt', link: '/contact', icon: 'info'},
+      {title: 'Über uns', link: '/contact', icon: 'info'},
     ],
     mapData: {
       bounds: [
-        [9.488374,46.874744],
-        [9.554950,46.849391]
+        [9.576793,46.941592], /*Oben links*/
+        [9.555908,46.92992] /*Unten rechts*/
       ]
     },
   },

@@ -153,7 +153,7 @@ function AnimatedMap(props) {
         source: 'outline',
         paint: {
           'fill-color': 'white',
-          'fill-opacity': 0.6
+          'fill-opacity': 1
         }
       })
 
@@ -235,7 +235,7 @@ function AnimatedMap(props) {
             activate={() => mapObject.activateMap()}
             deactivate={() => mapObject.deactivateMap()}
             initialState={null}
-            buttonText={['Activate map', 'Activate scrolling']}
+            buttonText={['Karte aktivieren', 'Karte sperren']}
             icons={['moving.svg', 'scrolling.svg']}
           />
         </div>

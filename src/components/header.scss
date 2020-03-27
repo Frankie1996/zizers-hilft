@@ -9,9 +9,6 @@ header {
       height: 50px;
       background-size: cover;
       display: flex;
-      -webkit-animation: rotation 15s infinite linear;
-      animation: rotation 15s infinite linear;
-      -moz-animation: rotation 15s infinite linear;
     }
     h1.logo-font {
       display: flex;
@@ -34,7 +31,7 @@ header {
     a {
       display: flex;
       align-self: center;
-      color: #24D1D2;
+      color: rgb(211, 99, 99);
       opacity: 0.7;
       font-size: 1.5;
 

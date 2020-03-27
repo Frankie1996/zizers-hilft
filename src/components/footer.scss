@@ -2,3 +2,20 @@ footer.ui.inverted.segment {
   bottom: 0;
   margin-top: 3rem;
 }
+
+td.content {
+  font-weight: 400;
+}
+td {
+  padding: 1rem;
+  text-align: left;
+}
+
+table{
+  display: grid;
+  justify-content: center
+}
+
+.tbl-titel{
+  font-weight: bold;
+}
