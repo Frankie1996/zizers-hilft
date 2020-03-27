@@ -17,9 +17,9 @@ const Contact = () => {
               <div className='sub header'>
                 Das ursprüngliche Projekt wurde von <a href={'mailto:marc.fehr@gmail.com'}>Marc Fehr</a>  erstellt und ist als Open-Source-Repository auf <a href={'https://gitlab.com/marc.fehr/community-isolation-map'}>Gitlab</a> verfügbar. Weiterentwickelt wurde das Projekt durch
               <ul>
-                <li><a href="mailto:frank.zinsli@gmail.com">Frank Zinsli</a> #ZizersHilftZizers </li>
-                <li><a href="mailto:beni.aebersold@gmail.com">Bernhard Aebersold</a> - <a href="https://churhilftchur.ch/">Chur hilft Chur</a> #ChurHilftChur</li>
-                <li><a href="mailto:me@sandroanderes.ch">Sandro Anderes</a> - <a href="https://aarau.netlify.com/">Zäme starch</a> #AarauHilftAarau</li>
+                <li><a href="mailto:frank.zinsli@gmail.com">Frank Zinsli</a><ul><li> #ZizersHilftZizers </li></ul></li>
+                <li><a href="mailto:beni.aebersold@gmail.com">Bernhard Aebersold</a> <ul><li><a href="https://churhilftchur.ch/">Chur hilft Chur</a> #ChurHilftChur</li></ul></li>
+                <li><a href="mailto:me@sandroanderes.ch">Sandro Anderes</a> <ul><li><a href="https://aarau.netlify.com/">Zäme starch</a> #AarauHilftAarau</li></ul></li>
               </ul>
               Jede Rückmeldung ist willkommen!
               <div className='sub header'>

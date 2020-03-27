@@ -181,7 +181,7 @@ export function MapAddComponent() {
               }}
             >
               <i className='left arrow icon' />
-              Change location
+              Ort ändern
             </button>
             <div className='ui form'>
               <h4 className='ui horizontal divider header'>

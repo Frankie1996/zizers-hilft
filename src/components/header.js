@@ -27,14 +27,14 @@ const Header = () => {
     <header>
       <div className={'ui unstackable grid'}>
         <div className={'ui twelve wide column logo-column'}>
-          <div
+        <a href="/"><div
             className={'header-logo'}
             style={{
               backgroundImage: 'url('+ logo +')'
             }}
-          />
+          /></a>
           <h1 className={'logo-font'}>
-            <span>{data.site.siteMetadata.title}</span>
+            <a href="/"><span>{data.site.siteMetadata.title}</span></a>
           </h1>
         </div>
         <div className={'ui four wide right aligned column'} style={{padding: '.8rem 1.4rem 0 0'}}>
