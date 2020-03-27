@@ -335,24 +335,24 @@ export function MapAddComponent() {
       <div className='ui vertical segment'>
         <div className='ui text container formcontainer'>
           <h2>Was geschieht mit meinen Daten?</h2>
-          Die Administratoren prüfen deinen Eintrag und fügen ihn der interaktiven Karte hinzu. Dies dauert normalerweise <strong>weniger als 24 Stunden</strong>. Keine Angst, deine Daten werden <strong>nicht an Dritte weitergegeben.</strong>
+          <p>Die Administratoren prüfen deinen Eintrag und fügen ihn der interaktiven Karte hinzu. Dies dauert normalerweise <strong>weniger als 24 Stunden</strong>. Keine Angst, deine Daten werden <strong>nicht an Dritte weitergegeben.</strong></p>
           <h2>Welche Einträge werden bewilligt?</h2>
-          Jeder kann Teil der Gemeinschaft werden. Ob du Kindern über Skype Bücher vorliest, jeden Mittwoch ein paar Scheiben deines leckeren Sauerteigbrotes lieferst oder einfach einen neuen Take-away-Service für deine Produkte startest - hier bist du richtig.
+          <p>Jeder kann Teil der Gemeinschaft werden. Ob du Kindern über Skype Bücher vorliest, jeden Mittwoch ein paar Scheiben deines leckeren Sauerteigbrotes lieferst oder einfach einen neuen Take-away-Service für deine Produkte startest - hier bist du richtig.</p>
           <h2>Wie kann ich meine Daten entfernen?</h2>
-          Wenn du einen Eintrag von der Karte <strong>löschen</strong> möchtest, dann schick eine Nachricht an{' '}
+          <p>Wenn du einen Eintrag von der Karte <strong>löschen</strong> möchtest, dann schick eine Nachricht an{' '}
           <a
             href='mailto:frank.zinsli@gmail.com'
           >
-            frank.zinsli@gmail.com
-          </a>
+           meine E-Mail Adresse.
+          </a></p>
           <h2>Was können wir verbessern?</h2>
-          Wir haben für jedes Anliegen ein offenes Ohr und danken dir bereits jetzt für dein konstruktives Feedback via <a
+          <p>Wir haben für jedes Anliegen ein offenes Ohr und danken dir bereits jetzt für dein konstruktives Feedback via <a
           href='mailto:frank.zinsli@gmail.com'
         >
           Mail
-        </a>{' '}.
+        </a>. </p>
           <h2>Warum nur in Zizers?</h2>
-          Zur Verhinderung einer weiteren Ausbreitung des Coronavirus, müssen wir unser Leben aktuell so lokal und isoliert wie möglich führen. Das Projekt <stong>Zizers hilft!</stong> soll Menschen in einer vergleisweise kleinen Community zusammenbringen, damit einander im Sinne einer Nachbarschaftshilfe geholfen werden kann. Die Idee dahinter stammt vom Web-Entwickler Marc Fehr, der während sechs Monaten pro Jahr in Südafrika arbeitet. Für seine lokale Community hat er {' '}
+          <p>Zur Verhinderung einer weiteren Ausbreitung des Coronavirus, müssen wir unser Leben aktuell so lokal und isoliert wie möglich führen. Das Projekt <stong>Zizers hilft!</stong> soll Menschen in einer vergleisweise kleinen Community zusammenbringen, damit einander im Sinne einer Nachbarschaftshilfe geholfen werden kann. Die Idee dahinter stammt vom Web-Entwickler Marc Fehr, der während sechs Monaten pro Jahr in Südafrika arbeitet. Für seine lokale Community hat er {' '}
           <a
           href='https://www.whozinberg.org'
         >
@@ -361,7 +361,7 @@ export function MapAddComponent() {
           href='https://gitlab.com/marc.fehr/community-isolation-map'
         >
             Gitlab
-        </a> zur Verfügung, damit sich weitere Communities wie Zizers hilft! bilden lassen.
+        </a> zur Verfügung, damit sich weitere Communities wie Zizers hilft! bilden lassen. </p>
         </div>
       </div>
     </div>

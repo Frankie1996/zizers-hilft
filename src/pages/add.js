@@ -30,10 +30,11 @@ const Add = () => {
           <h2>Wie funktioniert die Karte?</h2>
             <p>
             Wähle einen Ort auf der Karte, an dem die Informationen angezeigt werden sollen. Du wirst gebeten, uns einige Informationen über deinen Eintrag zu geben, bevor du ihn abschicken kannst. <strong>Wir werden alle Einträge manuell überprüfen.</strong> Sobald dein Eintrag genehmigt ist, wird dieser auf der Karte angezeigt.
-            </p>{' '}
+            {' '}
             <Link to='/'>
               Zur Karte wechseln
             </Link>
+            </p>
           </div>
         </section>
         <section>

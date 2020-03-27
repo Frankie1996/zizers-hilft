@@ -8,7 +8,6 @@
   min-height: 100vh;
 
   strong {
-    border-bottom: 4px solid rgba(255, 221, 0, 0.6);
     color: #000 !important;
   }
 
@@ -21,6 +20,7 @@
   }
 
   h1.ui.header .sub.header {
+    font-family: Roboto, Helvetica, sans-serif;
     font-size: 1.5rem;
     color: black;
     margin: 1rem auto .5rem auto;
@@ -61,7 +61,7 @@
     // background-color: rgb(245, 245, 245);
 
     h2 {
-      font-family: Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji !important;
+      font-family: 'Roboto', sans-serif !important;
       font-size: 1em;
       font-weight: bold;
       margin: calc(2rem - .025em) 0 1rem !important;
@@ -71,4 +71,8 @@
   #mapcontainer {
     position: relative;
   }
+}
+.ui.text.container.formcontainer p {
+  font-family: 'Roboto', sans-serif;
+  color: grey;
 }

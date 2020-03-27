@@ -21,7 +21,7 @@ const Index = () => {
 
   return (
     <Layout>
-      <Head title={data.site.siteMetadata.title} />
+      <Head title={'Home'} />
       <div className='index'>
         <section className='ui vertical very fitted segment' style={{marginTop: '1rem'}}>
           <div className='ui container'>
