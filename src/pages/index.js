@@ -27,7 +27,7 @@ const Index = () => {
           <div className='ui container'>
             <h1 className='ui header'>
               <div className='content'>
-                <span className={'page-title'}>Zizers hilft! - #ZizersHilftZizers</span>
+              <span className={'page-title'}>Zizers hilft! - #ZizersHilftZizers</span>
                 <div className='sub header'>
                 In Zeiten von Selbstisolation und Social Distancing soll in Zizers niemand alleine sein. Liest du gerne Geschichten via Skype vor, hast du Zeit für jemanden einzukaufen oder sonst etwas anzubieten? Füge deine Einträge in die interaktive Karte ein, damit wir diese Zeit gemeinsam durchstehen.{' '}
                   <Link to={'/add'}>

@@ -31,7 +31,7 @@ const Contact = () => {
         </div>
       </section>
 
-      <section className='ui vertical segment' style={{minHeight: '55vh'}}>
+      <section className='ui vertical segment'>
         <div className='ui text container formcontainer'>
           <h2>Shout out on Social Media</h2>
           <p>Teilt doch dieses <a href="https://gitlab.com/marc.fehr/community-isolation-map">Gitlab Repository</a> und helft den Leuten es zu benutzen.</p>
