@@ -58,11 +58,8 @@ const Index = () => {
             <p>
             Schreibe mir eine Mail an{' '}
               <a
-                href={`mailto:${data.site.siteMetadata.email}`}
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                {data.site.siteMetadata.email}
+                href="mailto:frank.zinsli@gmail.com"
+              >Link zu meiner Emailadress
               </a>
               .{' '}Andernfalls werden sämtliche Daten entfernt, sobald diese Karte nicht mehr benötigt wird.
             </p>

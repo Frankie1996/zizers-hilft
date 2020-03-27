@@ -7,7 +7,7 @@ module.exports = {
     author: 'Frank Zinsli by Marc Fehr',
     title: 'Zizers hilft!',
     description:
-      'Dies ist das Open Source-Projekt zum Erstellen Ihrer eigenen Community-Karte.',
+      'In Zeiten von Selbstisolation und Social Distancing soll in Zizers niemand alleine sein.',
     email: 'frank.zinsli@gmail.com',
     teaserImage: "https://www.whozinberg.org/teaser.jpg",
     twitter: {
