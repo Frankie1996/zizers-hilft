@@ -3,6 +3,9 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import { Link } from 'gatsby'
 import { MapViewComponent } from '../components/mapview.main'
+import ShareImg from "../images/share.jpg"
+import SaveImg from "../images/save.jpg"
+import HomeImg from "../images/home.jpg"
 /* SEO Component with React Helmet */
 import Head from '../components/head'
 
@@ -59,9 +62,23 @@ const Index = () => {
             Schreibe mir eine Mail an{' '}
               <a
                 href="mailto:frank.zinsli@gmail.com"
-              >Link zu meiner Emailadress
+              >(Link zu meiner Emailadress)
               </a>
               .{' '}Andernfalls werden sämtliche Daten entfernt, sobald diese Karte nicht mehr benötigt wird.
+            </p>
+            <h2>Webseite als Smartphone-App speichern</h2>
+            <p>
+              Es ist möglich diese Webseite als ein App (WebApp) zu speichern. Die untenstehenden Bilder zeigen, wie es auf einem Apple Device funktioniert. 
+            </p>
+            <img className='imgwidth' src={ShareImg} alt="Website Teilen"/>
+            <img className='imgwidth' src={SaveImg} alt="Website Teilen"/>
+            <img className='imgwidth' src={HomeImg} alt="Website Teilen"/>
+            <p>
+            Eine ausführliche Anleitung (auch für Android Geräte) finden Sie unter folgendem{' '}
+              <a
+                href="https://www.tutonaut.de/tipp-webseiten-als-apps-auf-die-startseite-von-android-oder-ios-legen/" target="_blank"
+              >Link.
+              </a>
             </p>
           </div>
         </section>

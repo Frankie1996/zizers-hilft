@@ -102,3 +102,22 @@
   line-height: 1.44rem;
   font-weight: 400;
 }
+
+@media screen and (max-width: 992px) {
+  .imgwidth{
+    width: 20vw;
+    padding: 1vw;
+    min-width: 290px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .imgwidth{
+    width: 20vw;
+    padding: 1vw;
+    min-width: 500px;
+  }
+}
+.imgwidth{
+  width: 193px;
+  padding: 1vw;
+}

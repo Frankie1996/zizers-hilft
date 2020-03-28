@@ -354,11 +354,11 @@ export function MapAddComponent() {
           <h2>Warum nur in Zizers?</h2>
           <p>Zur Verhinderung einer weiteren Ausbreitung des Coronavirus, müssen wir unser Leben aktuell so lokal und isoliert wie möglich führen. Das Projekt <stong>Zizers hilft!</stong> soll Menschen in einer vergleisweise kleinen Community zusammenbringen, damit einander im Sinne einer Nachbarschaftshilfe geholfen werden kann. Die Idee dahinter stammt vom Web-Entwickler Marc Fehr, der während sechs Monaten pro Jahr in Südafrika arbeitet. Für seine lokale Community hat er {' '}
           <a
-          href='https://www.whozinberg.org'
+          href='https://www.whozinberg.org' target="_blank"
         >
             whozinberg.org
         </a>{' '}ins Leben gerufen, das identisch wie Zizers hilft! funktioniert. Dankbarerweise stellt er seinen Programmiercode auf einer <strong>open source repository</strong> von           <a
-          href='https://gitlab.com/marc.fehr/community-isolation-map'
+          href='https://gitlab.com/marc.fehr/community-isolation-map' target="_blank"
         >
             Gitlab
         </a> zur Verfügung, damit sich weitere Communities wie Zizers hilft! bilden lassen. </p>
