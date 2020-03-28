@@ -22,10 +22,11 @@ const Contact = () => {
                 <li><a href="mailto:me@sandroanderes.ch">Sandro Anderes</a> <ul><li><a href="https://aarau.netlify.com/">Zäme starch</a> #AarauHilftAarau</li></ul></li>
               </ul>
               Jede Rückmeldung ist willkommen!
-              <div className='sub header'>
+              </div>
+              <h2 className='untertitel'>Ziel des Projekts</h2>
+              <p className='text_about'>
               Beim Projekt geht es darum, nachbarschaftlich für einander da zu sein, in einer Zeit, in der man isoliert sein sollte. Ziel ist es, dass weitere solche kleine Communities entstehen. Bitte teilt die Idee euren Freunden mit
-              </div>
-              </div>
+              </p>
             </div>
           </h1>
         </div>
