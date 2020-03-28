@@ -23,6 +23,7 @@
     "gatsby-cli": "^2.11.0",
     "gatsby-plugin-firebase": "^0.2.0-beta.4",
     "gatsby-plugin-google-analytics": "^2.2.0",
+    "gatsby-plugin-manifest": "^2.3.3",
     "gatsby-plugin-react-helmet": "^3.1.22",
     "gatsby-plugin-sass": "^2.2.0",
     "gatsby-source-firebase": "^1.0.0",
