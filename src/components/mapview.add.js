@@ -172,7 +172,7 @@ export function MapAddComponent() {
 
       {positionSelected && !formSent && (
         <div id='formcontent' className='ui vertical segment'>
-          <div className='ui text container formcontainer'>
+          <div className='ui text container formcontainer formcolor'>
             <button
               className='ui left labeled icon button compact'
               onClick={() => {

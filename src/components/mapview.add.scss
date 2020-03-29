@@ -65,6 +65,11 @@
     }
   }
 
+  .formcolor{
+    background-color: rgba(176, 204, 180, 0.712);
+    padding: 10px;
+  }
+
   #mapcontainer {
     position: relative;
 
@@ -76,6 +81,7 @@
     .newinfo{
       font-size: 1.2em;
     }
+    
     .selectposition{
       font-size: 1.2em;
     }
@@ -95,6 +101,7 @@
       height: auto;
       z-index: 9999;
       transform: translateX(-50%);
+      background-color: rgba(176, 204, 180, 0.712);
     }
   }
 }
