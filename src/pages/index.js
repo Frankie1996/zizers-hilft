@@ -62,19 +62,19 @@ const Index = () => {
             Schreibe mir eine Mail an{' '}
               <a
                 href="mailto:frank.zinsli@gmail.com"
-              >(Link zu meiner Emailadress)
+              >(Link zu meiner Emailadresse)
               </a>
-              .{' '}Andernfalls werden sämtliche Daten entfernt, sobald diese Karte nicht mehr benötigt wird.
+              .{' '}Sobald die Karte nicht mehr benötigt wird, werden alle Einträge und Daten gelöscht.
             </p>
             <h2>Webseite als Smartphone-App speichern</h2>
             <p>
-              Es ist möglich diese Webseite als ein App (WebApp) zu speichern. Die untenstehenden Bilder zeigen, wie es auf einem Apple Device funktioniert. 
+              Es ist möglich, diese Webseite als ein App (WebApp) zu speichern. Die untenstehenden Bilder zeigen, wie es auf einem Apple-Device funktioniert. 
             </p>
             <img className='imgwidth' src={ShareImg} alt="Website Teilen"/>
             <img className='imgwidth' src={SaveImg} alt="Website Teilen"/>
             <img className='imgwidth' src={HomeImg} alt="Website Teilen"/>
             <p>
-            Eine ausführliche Anleitung (auch für Android Geräte) finden Sie unter folgendem{' '}
+            Eine ausführliche Anleitung (auch für Androidgeräte) finden Sie unter folgendem{' '}
               <a
                 href="https://www.tutonaut.de/tipp-webseiten-als-apps-auf-die-startseite-von-android-oder-ios-legen/" target="_blank"
               >Link.

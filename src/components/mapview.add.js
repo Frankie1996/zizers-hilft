@@ -135,7 +135,7 @@ export function MapAddComponent() {
           <div id='overlay' className='box'>
             <h3>Neue Information hinzufügen</h3>
             <p>
-            Wählen Sie eine Position auf der Karte innerhalb der Gemeindegrenzen, um Teil von <strong>Zizers hilft!</strong> zu werden.
+            Wählen Sie eine Position auf der Karte innerhalb der Gemeindegrenzen, um Teil von <strong><i>Zizers hilft!</i></strong> zu werden.
             </p>
             <button
               className='ui primary button'
@@ -352,16 +352,16 @@ export function MapAddComponent() {
           Mail
         </a>. </p>
           <h2>Warum nur in Zizers?</h2>
-          <p>Zur Verhinderung einer weiteren Ausbreitung des Coronavirus, müssen wir unser Leben aktuell so lokal und isoliert wie möglich führen. Das Projekt <stong>Zizers hilft!</stong> soll Menschen in einer vergleisweise kleinen Community zusammenbringen, damit einander im Sinne einer Nachbarschaftshilfe geholfen werden kann. Die Idee dahinter stammt vom Web-Entwickler Marc Fehr, der während sechs Monaten pro Jahr in Südafrika arbeitet. Für seine lokale Community hat er {' '}
+          <p>Zur Verhinderung einer weiteren Ausbreitung des Coronavirus, müssen wir unser Leben aktuell so lokal und isoliert wie möglich führen. Das Projekt <strong><i>Zizers hilft!</i></strong> soll Menschen in einer vergleichsweise kleinen Community zusammenbringen, damit einander im Sinne einer Nachbarschaftshilfe geholfen werden kann. Die Idee dahinter stammt vom Web-Entwickler Marc Fehr, der während sechs Monaten pro Jahr in Südafrika arbeitet. Für seine lokale Community hat er {' '}
           <a
           href='https://www.whozinberg.org' target="_blank"
         >
             whozinberg.org
-        </a>{' '}ins Leben gerufen, das identisch wie Zizers hilft! funktioniert. Dankbarerweise stellt er seinen Programmiercode auf einer <strong>open source repository</strong> von           <a
+        </a>{' '}ins Leben gerufen, das identisch wie <i>"Zizers hilft!"</i> funktioniert. Dankbarerweise stellt er seinen Programmiercode auf einer <strong>Open Source Repository</strong> von           <a
           href='https://gitlab.com/marc.fehr/community-isolation-map' target="_blank"
         >
             Gitlab
-        </a> zur Verfügung, damit sich weitere Communities wie Zizers hilft! bilden lassen. </p>
+        </a> zur Verfügung, damit sich weitere Communities wie <i>"Zizers hilft!"</i> bilden lassen. </p>
         </div>
       </div>
     </div>

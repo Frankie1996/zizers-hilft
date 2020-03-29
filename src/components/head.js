@@ -21,9 +21,13 @@ const Head = ({ title }) => {
       meta={[
         { name: 'charset', content: "utf-8" },
         { name: 'og:title', content: "Zizers hilft! #ZizersHilftZizers" },
+        { name: 'title', content: "Zizers hilft! #ZizersHilftZizers" },
         { name: 'og:description', content: data.site.siteMetadata.description },
+        { name: 'description', content: data.site.siteMetadata.description },
         { name: 'og:url', content: "https://zizers-hilft.netlify.com" },
+        { name: 'url', content: "https://zizers-hilft.netlify.com" },
         { name: 'og:author', content: "Frank Zinsli by Marc Fehr" },
+        { name: 'author', content: "Frank Zinsli by Marc Fehr" },
         { name: 'copyright', content: "Kein Copyright - Opensource" },
         { name: 'keywords', content: "zizers-hilft!, zizers hilft, zizers coronavirus, zizers corona, zizershilftzizers" },
         { name: 'robots', content: "index" },

@@ -15,7 +15,7 @@ const Contact = () => {
               Über uns
             </span>
               <div className='sub header'>
-                Das ursprüngliche Projekt wurde von <a href={'mailto:marc.fehr@gmail.com'}>Marc Fehr</a>  erstellt und ist als Open-Source-Repository auf <a href='https://gitlab.com/marc.fehr/community-isolation-map' target="_blank">Gitlab</a> verfügbar. Weiterentwickelt wurde das Projekt durch
+                Das ursprüngliche Projekt wurde von <a href={'mailto:marc.fehr@gmail.com'}>Marc Fehr</a>  erstellt und ist als Open Source Repository auf <a href='https://gitlab.com/marc.fehr/community-isolation-map' target="_blank">Gitlab</a> verfügbar. Weiterentwickelt wurde das Projekt durch
               <ul>
                 <li><a href="mailto:frank.zinsli@gmail.com">Frank Zinsli</a><ul><li> #ZizersHilftZizers </li></ul></li>
                 <li><a href="mailto:beni.aebersold@gmail.com">Bernhard Aebersold</a> <ul><li><a href="https://churhilftchur.ch/" target="_blank">Chur hilft Chur</a> #ChurHilftChur</li></ul></li>
@@ -25,7 +25,7 @@ const Contact = () => {
               </div>
               <h2 className='untertitel'>Ziel des Projekts</h2>
               <p className='text_about'>
-              Beim Projekt geht es darum, nachbarschaftlich für einander da zu sein, in einer Zeit, in der man isoliert sein sollte. Ziel ist es, dass weitere solche kleine Communities entstehen. Bitte teilt die Idee euren Freunden mit
+              Beim Projekt geht es darum, nachbarschaftlich für einander da zu sein, in einer Zeit, in der man isoliert sein sollte. Ziel ist es, dass weitere solche kleine Communities entstehen. Bitte teilt diese Idee mit euren Freunden.
               </p>
             </div>
           </h1>
