@@ -148,7 +148,7 @@ export function MapAddComponent() {
 
         {content.position.length > 0 && (
           <div id='selectThisPoint' className='box'>
-            <h3>Sie haben eine Position gewählt</h3>
+            <h3 className='selectposition'>Sie haben eine Position gewählt</h3>
             <p>Wollen Sie diese verwenden?</p>
             <div className='ui buttons'>
               <button
