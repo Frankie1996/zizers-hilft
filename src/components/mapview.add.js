@@ -133,7 +133,7 @@ export function MapAddComponent() {
         <AnimatedMap getMapObject={m => setMap(m)} enabled={mapActive} />
         {!mapActive && (
           <div id='overlay' className='box'>
-            <h3>Neue Information hinzufügen</h3>
+            <h3 className='newinfo'>Neue Information hinzufügen</h3>
             <p>
             Wählen Sie eine Position auf der Karte innerhalb der Gemeindegrenzen, um Teil von <strong><i>Zizers hilft!</i></strong> zu werden.
             </p>

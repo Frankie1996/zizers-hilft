@@ -20,6 +20,9 @@
     font-size: 2rem;
   }
 
+  .impressum{
+    max-width: 90vw !important;
+  }
   h1.ui.header .sub.header {
     font-family: Roboto, Helvetica, sans-serif;
     font-size: 1.2rem;
@@ -77,6 +80,10 @@
   font-family: 'Roboto', sans-serif;
   color: grey;
 }
+
+.ui container{
+  max-width: 80vw !important;
+}
 .ui.primary.button {
   background-color: #77D379;
   color: #FFFFFF;
@@ -96,7 +103,7 @@
 }
 
 .text_about {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-family: 'Roboto', sans-serif;
   color: grey;
   line-height: 1.44rem;

@@ -8,7 +8,7 @@ const Contact = () => {
     <Layout>
       <Head title={`Impressum & Datenschutz`} />
       <section className='ui vertical very fitted segment' style={{marginTop: '1rem'}}>
-        <div className='ui container'>
+        <div className='ui container impressum'>
           <h1 className='ui header'>
             <div className='content'>
             <span className='page-title'>
