@@ -4,6 +4,7 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
+    siteUrl: 'https://zizers-hilft.netlify.com/',
     author: 'Frank Zinsli by Marc Fehr',
     title: 'Zizers hilft!',
     description:
@@ -30,13 +31,13 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-sass`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: "UA-XXXXXXXXX-X",
+        siteUrl: `https://zizers-hilft.netlify.com/`,
       },
     },
     {
