@@ -79,6 +79,8 @@ const Index = () => {
                 href="https://www.tutonaut.de/tipp-webseiten-als-apps-auf-die-startseite-von-android-oder-ios-legen/" target="_blank"
               >Link.
               </a>
+              <br/><br/>
+              Zizers hilft! #ZizersHilftZizers
             </p>
           </div>
         </section>

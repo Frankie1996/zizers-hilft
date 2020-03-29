@@ -7,14 +7,14 @@ module.exports = {
     author: 'Frank Zinsli by Marc Fehr',
     title: 'Zizers hilft!',
     description:
-      'In Zeiten von Selbstisolation und Social Distancing soll in Zizers niemand alleine sein.',
+      'In Zeiten von Selbstisolation und Social Distancing soll in Zizers niemand alleine sein. Wir helfen uns gegenseitig. Zizers hilft! #ZizersHilftZizers ',
     email: 'frank.zinsli@gmail.com',
     twitter: {
       hashtag: 'yourHashtag',
       handle: 'yourTwitterHandle'
     },
     share: {
-      text: 'Wir helfen uns gegenseitig. Hilf auch du mit! https://zizers-hilft.netlify.com/',
+      text: 'In Zeiten von Selbstisolation und Social Distancing soll in Zizers niemand alleine sein. Wir helfen uns gegenseitig. Hilf auch du mit! https://zizers-hilft.netlify.com/',
       hashtags: 'ZizersHilft,Coronavirus,StayTheFuckHome' // separate with commas,
     },
     menuLinks: [

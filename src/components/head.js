@@ -29,8 +29,9 @@ const Head = ({ title }) => {
         { name: 'og:author', content: "Frank Zinsli by Marc Fehr" },
         { name: 'author', content: "Frank Zinsli by Marc Fehr" },
         { name: 'copyright', content: "Kein Copyright - Opensource" },
-        { name: 'keywords', content: "zizers-hilft!, zizers hilft, zizers coronavirus, zizers corona, zizershilftzizers" },
+        { name: 'keywords', content: "Zizers-hilft!, zizers hilft, zizershilftzizers, Zizers hilft! #ZizersHilftZizers" },
         { name: 'robots', content: "index" },
+        { name: 'google-site-verification', content: "yUcDhO8RXVsRYPqMadRThVh-cBlkCNuJXCsTXe_FNvs"},
       ]}
     />
   );
