@@ -70,6 +70,25 @@
     padding: 10px;
   }
 
+  .addneueinfo{
+    background-color: rgba(176, 204, 180, 0.712);
+  }
+
+  .ui.left.labeled.icon.button.compact {
+    background-color: rgb(179, 189, 89);
+    color: white;
+  }
+  .ui.left.labeled.icon.button.compact:hover {
+    background-color: rgb(188, 204, 40);
+  }
+
+  .positive{
+    background-color: rgb(119, 221, 121);
+  }
+  .positive:hover{
+    background-color: rgb(56, 216, 59);
+  }
+
   #mapcontainer {
     position: relative;
 

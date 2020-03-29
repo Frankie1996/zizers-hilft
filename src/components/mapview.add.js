@@ -132,7 +132,7 @@ export function MapAddComponent() {
       >
         <AnimatedMap getMapObject={m => setMap(m)} enabled={mapActive} />
         {!mapActive && (
-          <div id='overlay' className='box'>
+          <div id='overlay' className='box addneueinfo'>
             <h3 className='newinfo'>Neue Information hinzufügen</h3>
             <p>
             Wählen Sie eine Position auf der Karte innerhalb der Gemeindegrenzen, um Teil von <strong><i>Zizers hilft!</i></strong> zu werden.
@@ -152,7 +152,7 @@ export function MapAddComponent() {
             <p>Wollen Sie diese verwenden?</p>
             <div className='ui buttons'>
               <button
-                className='ui button'
+                className='ui button nonewpos'
                 onClick={() => {
                   setContent({ ...content, position: [] })
                 }}
