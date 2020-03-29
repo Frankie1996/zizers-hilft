@@ -34,9 +34,9 @@ const Footer = () => {
             </tr>
           </tbody>
         </table>
-        <hr></hr>
+        <hr/>
+        <a className='impressumg' href="/impressum">Impressum & Datenschutz</a><br/><br/>
         <i className='ui icon copyright' />{new Date().getFullYear()}{' '}{data.site.siteMetadata.title}
-        <a className='impressumg' href="/impressum">Impressum</a>
       </div>
     </footer>
   );

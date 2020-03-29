@@ -1,4 +1,5 @@
 import React from 'react';
+import CookieConsent from "react-cookie-consent";
 
 import Header from './header';
 import Navbar from './navbar';
@@ -22,12 +23,23 @@ import '@ta-interaktiv/semantic-ui/semantic/dist/components/icon.css'
 import '@ta-interaktiv/semantic-ui/semantic/dist/components/label.css'
 import '@ta-interaktiv/semantic-ui/semantic/dist/components/grid.css'
 
+
 import '../styles/index.scss';
 import './layout.scss';
 
 const Layout = ({ children }) => {
   return (
     <div id={'app'}>
+      <CookieConsent
+          location="bottom"
+          buttonText="Akzeptieren"
+          buttonId="akzeptbutton"
+          enableDeclineButton
+          declineButtonId="declinebutton"
+          declineButtonText="Ablehnen"
+          cookieName="gatsby-gdpr-google-analytics">
+          Wir verwenden Cookies, damit Sie diese Website optimal nutzen können. Durch einen Klick auf Akzeptieren, stimmen sie der Nutzung von Cookies zu.
+      </CookieConsent>
       <Header />
       <Navbar />
       <main>{children}</main>

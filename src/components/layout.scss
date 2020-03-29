@@ -119,3 +119,37 @@
   width: 193px;
   padding: 1vw;
 }
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  font-size: 1rem;
+  color: black;
+  line-height: 0.1;
+}
+
+.cookieConsent{
+  background-color: #424242 !important;
+  font-family: 'Robot', sans-serif;
+  z-index: 1000;
+}
+#akzeptbutton{
+  background-color:#77d379 !important;
+  border-radius: 5px !important;
+  transition: 0.5s;
+}
+#akzeptbutton:hover{
+  background-color:#40d343 !important;
+  border-radius: 0 !important;
+  transition: 0.5s;
+}
+#declinebutton:hover{
+  background-color:rgb(241, 50, 50) !important;
+  border-radius: 0 !important;
+  transition: 0.5s;
+}
+#declinebutton{
+  background-color: rgb(240, 101, 101) !important;
+  border-radius: 5px !important;
+  transition: 0.5s;
+}
