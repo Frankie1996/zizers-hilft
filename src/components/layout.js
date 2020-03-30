@@ -1,9 +1,12 @@
 import React from 'react';
 import CookieConsent from "react-cookie-consent";
+import favicon from '../images/favicon.ico'
+import Helmet from 'react-helmet'
 
 import Header from './header';
 import Navbar from './navbar';
 import Footer from './footer';
+
 
 /* Loading Semantic UI Style Sheets */
 import '@ta-interaktiv/semantic-ui/semantic/dist/components/reset.css'
@@ -38,8 +41,11 @@ const Layout = ({ children }) => {
           declineButtonId="declinebutton"
           declineButtonText="Ablehnen"
           cookieName="gatsby-gdpr-google-analytics">
-          Wir verwenden Cookies, damit Sie diese Website optimal nutzen können. Durch einen Klick auf Akzeptieren, stimmen sie der Nutzung von Cookies zu.
+          Wir verwenden Cookies, damit Sie diese Website optimal nutzen können. Durch einen Klick auf Akzeptieren, stimmen Sie der Nutzung von Cookies zu.
       </CookieConsent>
+      <Helmet>
+            <link rel="icon" href={favicon} />
+      </Helmet>
       <Header />
       <Navbar />
       <main>{children}</main>
