@@ -42,7 +42,7 @@ const Header = () => {
             <a href={'https://wa.me/?text=' + shareText} target={'_blank'} rel={'noopener noreferrer'}>
               <i className='ui icon whatsapp' />
             </a>
-            <a href={'https://www.facebook.com/sharer/sharer.php?u=https://netflify.zizers-hilft.com'} target={'_blank'} rel={'noopener noreferrer'}>
+            <a href={'https://www.facebook.com/sharer/sharer.php?u=https://zizers-hilft.ch'} target={'_blank'} rel={'noopener noreferrer'}>
               <i className='ui icon facebook' />
             </a>
             <a href={'https://twitter.com/intent/tweet?hashtags=' + shareHashtags +'&text=' + shareText} target={'_blank'} rel={'noopener noreferrer'}>

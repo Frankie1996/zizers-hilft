@@ -17,7 +17,7 @@ const Contact = () => {
               <div className='sub header'>
                 Das ursprüngliche Projekt wurde vom Datenjournalisten beim Tagesanzeiger, Simon Huwiler, entwickelt und durch <a href={'mailto:marc.fehr@gmail.com'}>Marc Fehr</a>  weiterentwickelt. Dieser stellte seinen Code als Open Source Repository auf <a href='https://gitlab.com/marc.fehr/community-isolation-map' target="_blank">Gitlab</a> zur verfügbar. Weiterentwickelt wurde das Projekt durch
               <ul>
-                <li><a href="mailto:frank.zinsli@gmail.com">Frank Zinsli</a><ul><li> #ZizersHilftZizers </li></ul></li>
+                <li><a href="mailto:frank.zinsli@gmail.com">Frank Zinsli - (frank.zinsli@gmail.com)</a><ul><li> #ZizersHilftZizers </li></ul></li>
                 <li><a href="mailto:beni.aebersold@gmail.com">Bernhard Aebersold</a> <ul><li><a href="https://churhilftchur.ch/" target="_blank">Chur hilft Chur</a> #ChurHilftChur</li></ul></li>
                 <li><a href="mailto:me@sandroanderes.ch">Sandro Anderes</a> <ul><li><a href="https://aarau.netlify.com/" target="_blank">Zäme starch</a> #AarauHilftAarau</li></ul></li>
               </ul>
