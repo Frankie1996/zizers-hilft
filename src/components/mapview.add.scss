@@ -49,7 +49,7 @@
   .box {
     width: 100%;
     padding: 2em;
-    z-index: 9999;
+    z-index: 998;
     display: block;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 3px;
@@ -118,7 +118,7 @@
       top: 0;
       left: 50%;
       height: auto;
-      z-index: 9999;
+      z-index: 998;
       transform: translateX(-50%);
       background-color: rgba(176, 204, 180, 0.712);
     }

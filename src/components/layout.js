@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
           declineButtonId="declinebutton"
           declineButtonText="Ablehnen"
           cookieName="gatsby-gdpr-google-analytics">
-          Wir verwenden Cookies, damit Sie diese Website optimal nutzen können. Durch einen Klick auf Akzeptieren, stimmen Sie der Nutzung von Cookies zu.
+          Wir verwenden Cookies, damit Sie diese Website optimal nutzen können. Durch einen Klick auf Akzeptieren, stimmen Sie der Nutzung von Cookies zu. <a href='/impressum'>Datenschutz</a>
       </CookieConsent>
       <Helmet>
             <link rel="icon" href={favicon} />

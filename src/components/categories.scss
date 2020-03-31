@@ -22,7 +22,7 @@
   }
 
   // Change all category colours here for the button and circle styling
-  $categories: all childcare food takeaway medical shop information petcare other;
+  $categories: all childcare food takeaway onlineshop shop coordination petcare other;
   $cat_colors: black rgb(255, 123, 0) rgb(93, 81, 134) #0e1aff #ff0000 #c264c5 #607039 #007013 #ff00c8;
 
   @each $cat in $categories {

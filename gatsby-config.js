@@ -4,7 +4,7 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://zizers-hilft.netlify.com/',
+    siteUrl: 'https://zizers-hilft.com/',
     author: 'Frank Zinsli by Marc Fehr',
     title: 'Zizers hilft!',
     description:
@@ -15,7 +15,7 @@ module.exports = {
       handle: 'yourTwitterHandle'
     },
     share: {
-      text: 'In Zeiten von Selbstisolation und Social Distancing soll in Zizers niemand alleine sein. Wir helfen uns gegenseitig. Hilf auch du mit! https://zizers-hilft.netlify.com/',
+      text: 'In Zeiten von Selbstisolation und Social Distancing soll in Zizers niemand alleine sein. Wir helfen uns gegenseitig. Hilf auch du mit! https://zizers-hilft.com/',
       hashtags: 'ZizersHilft,Coronavirus,StayTheFuckHome' // separate with commas,
     },
     menuLinks: [
@@ -49,7 +49,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://zizers-hilft.netlify.com/`,
+        siteUrl: `https://zizers-hilft.com/`,
       },
     },
     {
