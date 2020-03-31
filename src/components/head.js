@@ -31,7 +31,7 @@ const Head = ({ title }) => {
         { name: 'copyright', content: "Kein Copyright - Opensource" },
         { name: 'keywords', content: "Zizers hilft, zizers hilft, zizershilftzizers, Zizers hilft! #ZizersHilftZizers" },
         { name: 'robots', content: "index" },
-        { name: 'google-site-verification', content: "yUcDhO8RXVsRYPqMadRThVh-cBlkCNuJXCsTXe_FNvs"},
+        { name: 'google-site-verification', content: "leELBSfL5PiA8LkMORy0LaaULy4drT8jFOuHtErquPs"},
       ]}
     />
   );
