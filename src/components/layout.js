@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
           location="bottom"
           buttonText="Akzeptieren"
           buttonId="akzeptbutton"
-          enableDeclineButton
+          //enableDeclineButton
           declineButtonId="declinebutton"
           declineButtonText="Ablehnen"
           cookieName="gatsby-gdpr-google-analytics">

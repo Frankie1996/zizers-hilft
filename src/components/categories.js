@@ -1,10 +1,10 @@
 module.exports = [
-	{ ident: 'childcare', text: 'Kinderbetreuung', color: '#1289A7' },
-	{ ident: 'food', text: 'Lieferservice', color: '#D980FA' },
-	{ ident: 'takeaway', text: 'Food Take-Away', color: '#30336b' },
-	{ ident: 'shop', text: 'Einkaufen gehen', color: '#8e44ad' },
-	{ ident: 'information', text: 'Unterhaltung', color: '#2980b9' },
-	{ ident: 'medical', text: 'Medizinische Hilfe', color: '#d35400' },
-	{ ident: 'petcare', text: 'Haustier Betreuung', color: '#e1b12c' },
-	{ ident: 'other', text: 'Sonstiges', color: '#222f3e' }
+	{ ident: 'childcare', text: 'Kinderbetreuung', color: '#ff7b00' },
+	{ ident: 'food', text: 'Lieferservice', color: '#5d5186' },
+	{ ident: 'takeaway', text: 'Food Take-Away', color: '#0e1aff' },
+	{ ident: 'shop', text: 'Einkaufen gehen', color: '#c264c5' },
+	{ ident: 'information', text: 'Unterhaltung', color: '#607039' },
+	{ ident: 'medical', text: 'Online Shop', color: '#ff0000' },
+	{ ident: 'petcare', text: 'Haustier Betreuung', color: '#007013' },
+	{ ident: 'other', text: 'Sonstiges', color: '#ff00c8' }
 ]
