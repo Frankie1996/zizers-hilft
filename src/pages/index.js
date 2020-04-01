@@ -36,7 +36,7 @@ const Index = () => {
                   <Link to={'/add'}>
                     Hilf mit!
                   </Link>
-                  <br/><br/>Die Karte soll als Informationsquelle dienen und allen Zizersern eine Mehrwert bieten. Auch unsere lokalen Geschäfte befinden sich momentan in einer sehr schwierigen Lage. Bevor du im Internet nach irgendwelchen alternativen Angeboten suchst, schau doch erstmal ob auch ein lokales Geschäft entsprechendes anbietet.
+                  <br/><br/>Die Karte soll als Informationsquelle dienen und allen Zizerserinnen und Zizersern eine Mehrwert bieten. Auch unsere lokalen Geschäfte befinden sich momentan in einer sehr schwierigen Lage. Bevor du im Internet nach irgendwelchen alternativen Angeboten suchst, schau doch erstmal ob auch ein lokales Geschäft entsprechendes anbietet.
                 </div>
               </div>
             </h1>
